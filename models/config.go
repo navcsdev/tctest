@@ -1,10 +1,10 @@
 package models
 
 type Config struct {
-	Data data
+	Data Data
 }
 
-type data struct {
+type Data struct {
 	Organization string
 	User         string
 	Ticket       string
